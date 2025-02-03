@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ashes1ashes:cruz",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 20,
+    "salt": 23227271
+  }
+}

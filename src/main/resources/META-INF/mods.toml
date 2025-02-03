@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="MIT License"
+
+[[mods]]
+modId="ashes1ashes"
+version="0"
+displayName="⛧"
+displayURL="https://www.patreon.com/EBALIA"
+logoFile="logo.png"
+credits="⛧"
+authors="EBALIA"
+description="☧"
+
+[[dependencies.ashes1ashes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.ashes1ashes]]
+    modId="use_compiled_mods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ashes1ashes]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

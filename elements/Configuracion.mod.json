@@ -1,0 +1,1465 @@
+{
+  "_fv": 57,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "Change Spawn Entities - Global",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 36000.0,
+            "textDefault": "",
+            "comment": "For each tick.This affects the Stalker Villager and entities that disappear around the player. Be careful what you modify. If you are not sure, do not change the numbers.",
+            "vardisplay": "Change Entities Minimum Ticks Spawn",
+            "varname": "CambiarSpawnMinimo",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 108000.0,
+            "textDefault": "",
+            "comment": "For each tick. This affects the Stalker Villager and entities that disappear around the player. Be careful what you modify. If you are not sure, do not change the numbers.",
+            "vardisplay": "Change Entities Maximum Ticks Spawn",
+            "varname": "CambiarSpawnMaximo",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "It is recommended to leave the probability at 1 by default.",
+            "vardisplay": "Min Despawn Probability",
+            "varname": "ProbabilidadMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 3.0,
+            "textDefault": "",
+            "comment": "Changes the spawn probability of the mobs",
+            "vardisplay": "Max Despawn Probability",
+            "varname": "ProbabilidadMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Enable Villager Stalker?",
+            "varname": "EnableVillagerStalker",
+            "enablecomment": false
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Do you want all entities around the player to despawn randomly?",
+            "vardisplay": "Despawn entities randomly?",
+            "varname": "DespawnEntitiesRandom",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Change Villager Stalker Spawn",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Probability of Villager Stalker spawning with respect to global time The default values have been tested. It is recommended to leave them like this ",
+            "vardisplay": "Villager Stalker Minimum Spawn",
+            "varname": "VillagerStalkerMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 4.0,
+            "textDefault": "",
+            "comment": "Probability of Villager Stalker spawning with respect to global time The default values have been tested. It is recommended to leave them like this ",
+            "vardisplay": "Villager Stalker Maximum Spawn",
+            "varname": "VillagerStalkerMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 400.0,
+            "textDefault": "",
+            "comment": "For each tick.",
+            "vardisplay": "Villager Stalker Minimum Ticks Despawn",
+            "varname": "StalkerVillagerDespawnMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1000.0,
+            "textDefault": "",
+            "comment": "For each tick.",
+            "vardisplay": "Villager Stalker  Maximum Ticks Despawn",
+            "varname": "StalkerVillagerDespawnMax",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Chicken Spawn Probablity",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "If the chicken is attacked, then there is a chance that the hostile entity will spawn.",
+            "vardisplay": "Chicken Minimum Spawn",
+            "varname": "ChickenSpawnMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 30.0,
+            "textDefault": "",
+            "comment": "If the chicken is attacked, then there is a chance that the hostile entity will spawn.",
+            "vardisplay": "Chicken Maximum Spawn",
+            "varname": "ChickenSpawnMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 600.0,
+            "textDefault": "",
+            "comment": "For each tick.The default values ​​have been tested. It is recommended to leave them like this",
+            "vardisplay": "Chicken Minimum Ticks Despawn",
+            "varname": "ChickenDespawnTimerMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 900.0,
+            "textDefault": "",
+            "comment": "For each tick.The default values ​​have been tested. It is recommended to leave them like this",
+            "vardisplay": "Chicken Maximum Ticks Despawn",
+            "varname": "ChickenDespawnTimerMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Enable Chicken Spawn?",
+            "varname": "SpawnChicken",
+            "enablecomment": false
+          }
+        ]
+      },
+      {
+        "category": "Change Global Spawn",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 40000.0,
+            "textDefault": "",
+            "comment": "For each tick.This affects the Flying villagers, Cow and Chicken and Invisible Entity. Be careful what you modify. If you are not sure, do not change the numbers.",
+            "vardisplay": "Minimum Ticks Spawn",
+            "varname": "SpawnGlobalMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 108000.0,
+            "textDefault": "",
+            "comment": "For each tick.This affects the Flying villagers, Cow and Chicken and Invisible Entity. Be careful what you modify. If you are not sure, do not change the numbers.",
+            "vardisplay": "Maximum Ticks Spawn",
+            "varname": "SpawnGlobalMax",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Flying Villagers Spawn",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Random Min Probability Spawn",
+            "vardisplay": "Flying Villagers Minimum Spawn",
+            "varname": "VillagersVoladoresMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 3.0,
+            "textDefault": "",
+            "comment": "Random Max Probability Spawn",
+            "vardisplay": "Flying Villagers Maximum Spawn",
+            "varname": "VillagersVoladoresMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1000.0,
+            "textDefault": "",
+            "comment": "For each tick!",
+            "vardisplay": "Flying Villagers Minimum Ticks Despawn",
+            "varname": "FlyingVillagerDespawnMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1600.0,
+            "textDefault": "",
+            "comment": "For each tick!",
+            "vardisplay": "Flying Villagers Maximum Ticks Despawn",
+            "varname": "FlyingVillagerDespawnMax",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Stalker Cow and Chicken Spawn",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Random Min Probability Spawn",
+            "vardisplay": "Stalker Cow Minimum Spawn",
+            "varname": "StalkerCowMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 4.0,
+            "textDefault": "",
+            "comment": "Random Max Probability Spawn",
+            "vardisplay": "Stalker Cow Maximum Spawn",
+            "varname": "StalkerCowMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Random Min Probability Spawn",
+            "vardisplay": "Stalker Chicken Minimum Spawn",
+            "varname": "StalkerChickenMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 4.0,
+            "textDefault": "",
+            "comment": "Random Max Probability Spawn",
+            "vardisplay": "Stalker Chicken Maximum Spawn",
+            "varname": "StalkerChickenMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Enable Chicken and Cow Spawn?",
+            "varname": "CowChickenStalkerSpawn",
+            "enablecomment": false
+          }
+        ]
+      },
+      {
+        "category": "Villagers Rain",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "For each tick!",
+            "vardisplay": "Rain Villagers Minimum Ticks Spawn",
+            "varname": "RainVillagerMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 20000.0,
+            "textDefault": "",
+            "comment": "For each tick!",
+            "vardisplay": "Rain Villagers Maximum Ticks Spawn",
+            "varname": "RainVillagerMax",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Spawn Rate Balloon and 000 - Global",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 36000.0,
+            "textDefault": "",
+            "comment": "For each tick!",
+            "vardisplay": "Minimum Ticks Spawn",
+            "varname": "stucturemin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 64000.0,
+            "textDefault": "",
+            "comment": "For each tick!",
+            "vardisplay": "Maximum Ticks Spawn",
+            "varname": "stucturemax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Enable 000 and 000 Hostile?",
+            "varname": "EnableJar",
+            "enablecomment": false
+          }
+        ]
+      },
+      {
+        "category": "Night Global",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "It is necessary to leave this option activated to edit those that are related to this",
+            "vardisplay": "Enable Night randomly?",
+            "varname": "HabilitarNoche",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 6000.0,
+            "textDefault": "",
+            "comment": "Minimum time for nightfall (ticks)",
+            "vardisplay": "Randomly Night Min Ticks",
+            "varname": "NocheMinGlobal",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 48000.0,
+            "textDefault": "",
+            "comment": "Maximum time for nightfall (ticks)",
+            "vardisplay": "Randomly Night Max Ticks",
+            "varname": "NocheMaxGlobal",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Spawn Smile Block",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Do you want the Smile Block to spawn when you start the world for the first time?",
+            "vardisplay": "Enable Smile Block Spawn",
+            "varname": "SmileSpawn",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Torches Despawn",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "It is necessary to leave it enabled if you will change other values",
+            "vardisplay": "Enable Torches Randomly Despawn?",
+            "varname": "Torches",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.16,
+            "textDefault": "",
+            "comment": "The higher the number, the faster it will despawn.",
+            "vardisplay": "Random Torch Despawn Probability",
+            "varname": "RandomTorch",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1200.0,
+            "textDefault": "",
+            "comment": "Establishes the minimum probability in ticks that it can despawn (ticks)",
+            "vardisplay": "Start despawn from (ticks)",
+            "varname": "MinTicksTorch",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 6000.0,
+            "textDefault": "",
+            "comment": "Establishes the maximum probability in ticks that it can despawn (ticks)",
+            "vardisplay": "End spawn chance from (ticks)",
+            "varname": "MaxTicksTorch",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Sounds Global",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "For each tick!",
+            "vardisplay": "Random Sounds Min Probability",
+            "varname": "SoundMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 180.0,
+            "textDefault": "",
+            "comment": "For each tick!",
+            "vardisplay": "Random Sounds Max Probability",
+            "varname": "SoundMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "It is necessary to leave it enabled if you will change other values",
+            "vardisplay": "Enable Mod Sounds?",
+            "varname": "ActivateSounds",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.004,
+            "textDefault": "",
+            "comment": "If you have the In Your World mod installed, you need to disable this.. This sound pack will be heard when the player is not inside a cave, structure or underground. The higher the number, the more frequent it will be for the player",
+            "vardisplay": "Sounds 1: How often will the sounds be heard? ",
+            "varname": "FrecuenciaSonidos",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.004,
+            "textDefault": "",
+            "comment": "This sound pack will be heard when the player is inside a cave, structure, or underground. The higher the number, the more frequent it will be for the player.",
+            "vardisplay": "Sounds 2: How often will the sounds be heard? ",
+            "varname": "FrecuenciaSonidos2",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.007,
+            "textDefault": "",
+            "comment": "This sound pack will be heard when the player is inside a cave, structure, or underground. The higher the number, the more frequent it will be for the player.",
+            "vardisplay": "Sounds 3: How often will the sounds be heard? ",
+            "varname": "FrecuenciaSonidos3",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Enable Entities Spawn in Villages?",
+            "varname": "ActivateDespawnSounds",
+            "enablecomment": false
+          }
+        ]
+      },
+      {
+        "category": "Player goes to bed",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "It is necessary to leave it enabled if you will change other values",
+            "vardisplay": "Activate Spawn Chicken?",
+            "varname": "ActivateBed",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 300.0,
+            "textDefault": "",
+            "comment": "Establishes the maximum probability that the Chicken can spawn when player goes to bed",
+            "vardisplay": "Max Chicken Bed Spawn Rate",
+            "varname": "MaxChickenBed",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Establishes the minimum probability that the Chicken can spawn when player goes to bed",
+            "vardisplay": "Min Chicken Bed Spawn Rate",
+            "varname": "MinChickenBed",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Door and Glass",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "If the player opens the door then the entity has a probability of entering",
+            "vardisplay": "Enable if Player Open the Door?",
+            "varname": "OpenDoor",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "If the player places a glass block, the entity has a chance to break it",
+            "vardisplay": "Enable if put a glass block",
+            "varname": "GlassBreak",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 80.0,
+            "textDefault": "",
+            "comment": "When the player opens the door, there is a chance that the entity can open it. The lower the number, the more likely it is.",
+            "vardisplay": "Enable Entity Open the Door?",
+            "varname": "EntidadAbreLaPuerta",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 80.0,
+            "textDefault": "",
+            "comment": "When the player closes the door, there is a chance that the entity can close it as well. The lower the number, the more likely it is.",
+            "vardisplay": "Enable Entity Close the Door?",
+            "varname": "EntidadCierraLaPuerta",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 55.0,
+            "textDefault": "",
+            "comment": "When the player places a block,  there is a chance that the entity will break it. The lower the number, the higher the probability of it occurring.",
+            "vardisplay": "Enable Entity can break glass?",
+            "varname": "EntidadRompeVidrios",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "When the player is near a glass block, there is a chance that the entity will break it",
+            "vardisplay": "Probability Break Glass Block when player is nearby",
+            "varname": "GlassBreak2",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 3.0,
+            "textDefault": "",
+            "comment": "When the player is near a glass block, there is a chance that the entity will break it. The lower the number, the more likely it is to occur.",
+            "vardisplay": "Probability Entity break glass around the player",
+            "varname": "jugadorRompeVidrios",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": -10.0,
+            "textDefault": "",
+            "comment": "Distance number to break glass blocks. The smaller the number, the greater the distance.",
+            "vardisplay": "Break Glass Blocks Distance",
+            "varname": "BloquesDistancia",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 24000.0,
+            "textDefault": "",
+            "comment": "Minimum probability in ticks to break glass blocks near the player",
+            "vardisplay": "Min Probability Break Glass Block",
+            "varname": "vidriosRompeMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 64000.0,
+            "textDefault": "",
+            "comment": "Maximum chance in ticks to break glass blocks near the player",
+            "vardisplay": "Max Probability Break Glass Block",
+            "varname": "vidriosRompeMax",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Spawn Eye Entity Global",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "You need to keep this enabled for the other settings in this category to work.",
+            "vardisplay": "Spawn Eye?",
+            "varname": "SpawnEye",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 24000.0,
+            "textDefault": "",
+            "comment": "Establishes the minimum probability in ticks that it can spawn",
+            "vardisplay": "Spawn Eye Min Probability",
+            "varname": "spawnNGlobalMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 64000.0,
+            "textDefault": "",
+            "comment": "Establishes the maximum probability in ticks that it can spawn",
+            "vardisplay": "Spawn Eye Max Probability",
+            "varname": "spawnNGlobalMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "If the Eye Entity spawns, it will also spawn structure (test)",
+            "vardisplay": "Spawn Eye Structure",
+            "varname": "SpawnNEstructuraTest",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 4.0,
+            "textDefault": "",
+            "comment": "The structure has a minimum spawn probability of 1. Now enter the maximum amount (1≠1)",
+            "vardisplay": "Change Max Probability Spawn ",
+            "varname": "ProbabilidadMaxEstructura",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 150.0,
+            "textDefault": "",
+            "comment": "Change Eye Entity Despawn (ticks)",
+            "vardisplay": "Change Despawn",
+            "varname": "DespawnN",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Balloon",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 80.0,
+            "textDefault": "",
+            "comment": "Probability that the balloon will explode. If it explodes, other events will happen later. The higher the number, the rarer it will be.",
+            "vardisplay": "Explode Balloon Probability",
+            "varname": "ExplodeBalloonProbability",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 2.0,
+            "textDefault": "",
+            "comment": "Probability that, after the balloon has exploded, different structures will be generated. The higher the number, the rarer it will be.",
+            "vardisplay": "Balloon Structure Probability",
+            "varname": "BalloonStructureProbability",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 3.0,
+            "textDefault": "",
+            "comment": "Probability that the cross can be generated with 000. The higher the number, the rarer it will be.",
+            "vardisplay": "000 Cross Probability",
+            "varname": "Cruz000Probability",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 3.0,
+            "textDefault": "",
+            "comment": "Probability that the cross can be generated without 000. The higher the number, the rarer it will be.",
+            "vardisplay": "Normal Cross Probability",
+            "varname": "NormalCruzProbability",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "If the player kills the balloon with the bow and arrow, the game crashes.",
+            "vardisplay": "Game Crash?",
+            "varname": "GloboMuere",
+            "enablecomment": false
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Enable Balloon Spawn?",
+            "varname": "EnableBalloon",
+            "enablecomment": false
+          }
+        ]
+      },
+      {
+        "category": "Eye Block",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 150.0,
+            "textDefault": "",
+            "comment": "The higher the number, the rarer it will be to happen. When the player opens or closes the door, there is a chance that an Eye Block will appear.",
+            "vardisplay": "Probability Eye Block Spawn",
+            "varname": "EyeBlockSpawn",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "When the player touch the eye block.... (Disable if you have a basement in your house)",
+            "vardisplay": "Enable Eye Block Touch?",
+            "varname": "EnableEyeTouch",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 180.0,
+            "textDefault": "",
+            "comment": "The larger the number, the less likely it is. Maze spawn chance when touching block",
+            "vardisplay": "Max Spawn Maze Probability",
+            "varname": "MaxTouchProbability",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Enable Eye Block?",
+            "varname": "SpawnBlockEye",
+            "enablecomment": false
+          }
+        ]
+      },
+      {
+        "category": "Maze",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Enable Fog",
+            "varname": "DeshabilitarFog",
+            "enablecomment": false
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Enable Darkness, Blindness and Slowness Effect?",
+            "vardisplay": "Enable Effects",
+            "varname": "DarkBlind",
+            "enablecomment": false
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Activate the default maze that the mod brings when it is generated",
+            "vardisplay": "Enable Maze by default",
+            "varname": "EnableBedrock",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 1,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "If you have a house with a basement or stairs and you do not want the Bedrock to get in the way but you do want the maze to be generated, you can choose the maze adapted with obsidian to destroy the blocks",
+            "vardisplay": "Enable Adaptive Maze",
+            "varname": "EnableObsidian",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Enable Maze Spawn?",
+            "varname": "EnableMaze",
+            "enablecomment": false
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Blindness",
+            "varname": "Blindness",
+            "enablecomment": false
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Darkness",
+            "varname": "Darkness",
+            "enablecomment": false
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Slowness",
+            "varname": "Slowness",
+            "enablecomment": false
+          }
+        ]
+      },
+      {
+        "category": "Glass and Chat",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "This option is to enable or disable the glass cage that 000 and the spawning Villager cause, as well as the chat flood.",
+            "vardisplay": "Glass 000 and Villager",
+            "varname": "ActivarVidrio",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "This disable Chat Flood when Eye Entity Spawns",
+            "vardisplay": "Chat Flood Eye Entity",
+            "varname": "ChatFloodEye",
+            "enablecomment": true
+          }
+        ]
+      }
+    ],
+    "file": "000.jar Configuration",
+    "configType": 0
+  }
+}

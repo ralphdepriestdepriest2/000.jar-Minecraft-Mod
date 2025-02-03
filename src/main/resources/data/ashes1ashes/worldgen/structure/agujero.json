@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "ashes1ashes:agujero",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -48
+    },
+    "max_inclusive": {
+      "absolute": -38
+    }
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "biomes": "#is_forest",
+  "use_expansion_hack": false
+}

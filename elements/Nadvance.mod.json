@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "§c§kyou haven't seen anything",
+    "achievementDescription": "§c§kẏ̷͕̪̬̟̣̠̫̳ǫ̵̪͔̤̲̦̈͒̒͆̌̑̿͒̑̎̄̓̂͘͝ų̷̛̜̜̻͇̠̞̬͖̓͆̆͋͛̈́͒͑̌͑̈́͂̉̌ ̴̨̛͇͙̫͚̤͈̯̮̙̈́̏̈́̈́͆͐̔̽̓̄̍̚d̴͚̫͍̒̆́͐͝o̶̡̨̮͚̯͉̟͖̖͖̖̽̿̆̍̾̚n̸̛͕̖̳̱͎̻̜͙̟̣͖̥̋̓̌͜͝'̸̡̢͓̠͓̤͓̲͇̻̱͉̥͖͌͌͊̓̕t̸̺͙̗̺̤͈̞̭̱̬̏̓̆͑̓̀̌͐͜ ̵̡̧̫̘̪̦̰̦͌̚͜k̷̨̡͉̖̻̝̺͈̩̤̤̖͔͊͗̂̾͠n̵̨͎̘̯̫͐̿̄͛̾̓̀̆̈́̔̏͠ọ̶̡͙̯̲͉̺͕̲̯̫͘̕ẃ̴̨̢̗̼͓̠̩̱̱̈̎̅̈̒̃̽̊͘͠ ̶̡̒̔̌͂̑̌̃͗̄̍̉̉̓͠w̸͇̣̤̱̫̭̩̼̠̰̳̍͆̓̄̆̈̽̄̓͊̋̕̕ḥ̸̣̻̻̩͙̮̣̈́̀́͑̽̒̈́͆́͒͋͒o̸̥̹̹̘̮͚̮͋͂̈́̈́̎̓̀͘ ̶̱̗̺̩̽̐̈́͐̀̑̇̈ȳ̸̢̙͙̺͙͇̦̟̖̺̖̬͓͐o̵̥̐ũ̸͔̽̆͛̾͐͆́̊̀̽̏̽͠ ̸̹͔̩͖͖̫̝̫͓̈́̈͊̒̅͗̇͘͘å̸̠̥̗̺̤͌̅̍̐̈̐͑̎̕͜͝͝ṟ̶̨̢̢̢̖͓̞͍̰̖͕̊̌͌ę̷̛̯̜̜̫̝̹̺̠̙̪͔̺̍̈́̂̉̑̄̆̑̒̒̇̕͘ͅͅ",
+    "achievementIcon": {
+      "value": "Items.RECORD_11"
+    },
+    "background": "smile.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"43\" y=\"55\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

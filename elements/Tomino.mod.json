@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "painting",
+  "definition": {
+    "texture": "tomino.png",
+    "width": 32,
+    "height": 42,
+    "title": "Tomino",
+    "author": "tomino"
+  }
+}

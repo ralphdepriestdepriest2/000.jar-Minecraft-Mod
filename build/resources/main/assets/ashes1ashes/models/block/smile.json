@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ashes1ashes:block/smile",
+    "up": "ashes1ashes:block/smile",
+    "north": "ashes1ashes:block/smile",
+    "east": "ashes1ashes:block/smile",
+    "south": "ashes1ashes:block/smile",
+    "west": "ashes1ashes:block/smile",
+    "particle": "ashes1ashes:block/smile"
+  },
+  "render_type": "solid"
+}

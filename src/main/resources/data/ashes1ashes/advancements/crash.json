@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "ashes1ashes:textures/screens/smile.png",
+    "icon": {
+      "item": "minecraft:player_wall_head"
+    },
+    "title": {
+      "translate": "advancements.crash.title"
+    },
+    "description": {
+      "translate": "advancements.crash.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "crash": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

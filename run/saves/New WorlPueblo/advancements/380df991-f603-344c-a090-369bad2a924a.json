@@ -1,0 +1,57 @@
+{
+  "undergarden:undergarden/root": {
+    "criteria": {
+      "tick": "2024-10-23 20:36:05 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-23 20:36:05 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-10-23 20:36:06 -0300"
+    },
+    "done": false
+  },
+  "aether:recipes/combat/diamond_sword_repairing": {
+    "criteria": {
+      "has_diamond_sword": "2024-10-23 20:36:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_sword": "2024-10-23 20:36:17 -0300"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_sword_repairing": {
+    "criteria": {
+      "has_iron_sword": "2024-10-23 20:36:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_sword": "2024-10-23 20:36:17 -0300"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/wooden_axe_repairing": {
+    "criteria": {
+      "has_wooden_axe": "2024-10-23 20:36:59 -0300"
+    },
+    "done": true
+  },
+  "ashes1ashes:nadvance": {
+    "criteria": {
+      "nadvance": "2024-10-23 22:10:59 -0300"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ashes1ashes:block/glitchtext",
+    "up": "ashes1ashes:block/glitchtext",
+    "north": "ashes1ashes:block/glitchtext",
+    "east": "ashes1ashes:block/glitchtext",
+    "south": "ashes1ashes:block/glitchtext",
+    "west": "ashes1ashes:block/glitchtext",
+    "particle": "ashes1ashes:block/glitchtext"
+  },
+  "render_type": "solid"
+}

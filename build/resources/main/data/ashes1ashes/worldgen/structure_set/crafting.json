@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ashes1ashes:crafting",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 20,
+    "salt": 197359343
+  }
+}

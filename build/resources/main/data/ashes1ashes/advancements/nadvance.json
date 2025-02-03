@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "ashes1ashes:textures/screens/smile.png",
+    "icon": {
+      "item": "minecraft:music_disc_11"
+    },
+    "title": {
+      "translate": "advancements.nadvance.title"
+    },
+    "description": {
+      "translate": "advancements.nadvance.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "nadvance": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

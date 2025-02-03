@@ -1,0 +1,290 @@
+{
+  "disc13": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:minecraft_music_disc_-_13",
+        "stream": false
+      }
+    ]
+  },
+  "cuevas": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:cuevas8",
+        "stream": false
+      }
+    ]
+  },
+  "cave12": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:cave12",
+        "stream": false
+      }
+    ]
+  },
+  "cave11": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:cave11",
+        "stream": false
+      }
+    ]
+  },
+  "cave8sound": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:cave8sound",
+        "stream": false
+      }
+    ]
+  },
+  "caminartierra": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:walkingefectdirt",
+        "stream": false
+      }
+    ]
+  },
+  "caminarpiedra": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:walkingstone",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-5": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:minecraft-cave-sound-5",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-4": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:minecraft-cave-sound-4",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-14": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:minecraft-cave-sound-14",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-19": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:minecraft-cave-sound-19",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-12": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:minecraft-cave-sound-12",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-11": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:minecraft-cave-sound-11",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-7": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:minecraft-cave-sound-7",
+        "stream": false
+      }
+    ]
+  },
+  "cueva21": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:cueva21",
+        "stream": false
+      }
+    ]
+  },
+  "corriendo": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:running",
+        "stream": false
+      }
+    ]
+  },
+  "balloon": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:balloon_pop_sound_effect",
+        "stream": true
+      }
+    ]
+  },
+  "pasos": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:pasos",
+        "stream": true
+      }
+    ]
+  },
+  "ambience01": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience01",
+        "stream": false
+      }
+    ]
+  },
+  "ambience02": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience02",
+        "stream": false
+      }
+    ]
+  },
+  "ambience06": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience06",
+        "stream": false
+      }
+    ]
+  },
+  "ambience07": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience07",
+        "stream": false
+      }
+    ]
+  },
+  "ambience08": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience08",
+        "stream": false
+      }
+    ]
+  },
+  "ambience09": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience09",
+        "stream": false
+      }
+    ]
+  },
+  "ambience10": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience10",
+        "stream": false
+      }
+    ]
+  },
+  "ambience12": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience12",
+        "stream": false
+      }
+    ]
+  },
+  "ambience13": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience13",
+        "stream": false
+      }
+    ]
+  },
+  "ambience14": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience14",
+        "stream": false
+      }
+    ]
+  },
+  "ambience15": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience15",
+        "stream": false
+      }
+    ]
+  },
+  "ambience16": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience16",
+        "stream": false
+      }
+    ]
+  },
+  "ambience17": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience17",
+        "stream": false
+      }
+    ]
+  },
+  "ambience18": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000d_ambience18",
+        "stream": false
+      }
+    ]
+  },
+  "bitcrush1de2": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000_bitcrush1de2",
+        "stream": true
+      }
+    ]
+  },
+  "bitcrush2de2": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:000_bitcrush2de2",
+        "stream": true
+      }
+    ]
+  },
+  "bitcrushjar1part": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:bitcrushjar1part",
+        "stream": true
+      }
+    ]
+  },
+  "bitcrushjar2part": {
+    "sounds": [
+      {
+        "name": "ashes1ashes:bitcrushjar2part",
+        "stream": true
+      }
+    ]
+  }
+}

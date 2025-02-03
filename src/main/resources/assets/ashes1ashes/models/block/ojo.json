@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ashes1ashes:block/ojobloque",
+    "up": "ashes1ashes:block/ojobloque",
+    "north": "ashes1ashes:block/ojobloque",
+    "east": "ashes1ashes:block/ojobloque",
+    "south": "ashes1ashes:block/ojobloque",
+    "west": "ashes1ashes:block/ojobloque",
+    "particle": "ashes1ashes:block/ojobloque"
+  },
+  "render_type": "solid"
+}

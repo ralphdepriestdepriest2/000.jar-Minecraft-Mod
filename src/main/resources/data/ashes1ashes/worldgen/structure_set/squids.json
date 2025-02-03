@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ashes1ashes:squids",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 18,
+    "salt": 283333882
+  }
+}

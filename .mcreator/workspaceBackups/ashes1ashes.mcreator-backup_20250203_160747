@@ -1,0 +1,3182 @@
+{
+  "mod_elements": [
+    {
+      "name": "SonidosGlobal",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonidos_global",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SonidosGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonidos"
+    },
+    {
+      "name": "Sonidos",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonidos",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SonidosProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonidos"
+    },
+    {
+      "name": "NocheGlobal",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noche_global",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/NocheGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Noche"
+    },
+    {
+      "name": "Noche",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noche",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/NocheProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Noche"
+    },
+    {
+      "name": "Muere",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muere",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/MuereProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JugadorMuere"
+    },
+    {
+      "name": "Villager",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/VillagerEntity.java",
+          "src/main/java/nothing/its/real/client/renderer/VillagerRenderer.java"
+        ]
+      },
+      "path": "~/Entidades/Villager Individual Volador"
+    },
+    {
+      "name": "Cow",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cow",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/CowRenderer.java",
+          "src/main/java/nothing/its/real/entity/CowEntity.java"
+        ]
+      },
+      "path": "~/Entidades"
+    },
+    {
+      "name": "Chicken",
+      "type": "animatedentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/ChickenRenderer.java",
+          "src/main/java/nothing/its/real/entity/ChickenEntity.java",
+          "src/main/java/nothing/its/real/entity/model/ChickenModel.java"
+        ]
+      },
+      "path": "~/Entidades/Pollo"
+    },
+    {
+      "name": "ChickenEntityIsHurt",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/ChickenEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Pollo"
+    },
+    {
+      "name": "N",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "n",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/NEntity.java",
+          "src/main/java/nothing/its/real/client/renderer/NRenderer.java"
+        ]
+      },
+      "path": "~/Entidades/Entidad Eye"
+    },
+    {
+      "name": "Squid",
+      "type": "animatedentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/SquidRenderer.java",
+          "src/main/java/nothing/its/real/entity/model/SquidModel.java",
+          "src/main/java/nothing/its/real/entity/SquidEntity.java"
+        ]
+      },
+      "path": "~/Entidades"
+    },
+    {
+      "name": "V",
+      "type": "animatedentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/VRenderer.java",
+          "src/main/java/nothing/its/real/entity/model/VModel.java",
+          "src/main/java/nothing/its/real/entity/VEntity.java"
+        ]
+      },
+      "path": "~/Entidades/V Voladores"
+    },
+    {
+      "name": "EntidadesDespawn",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entidades_despawn",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/EntidadesDespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/DespawnEntidadesGlobales"
+    },
+    {
+      "name": "EntidadesGlobal",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entidades_global",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/EntidadesGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/DespawnEntidadesGlobales"
+    },
+    {
+      "name": "Villagrr",
+      "type": "livingentity",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagrr",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/VillagrrEntity.java",
+          "src/main/java/nothing/its/real/client/renderer/VillagrrRenderer.java"
+        ]
+      },
+      "path": "~/Entidades/VillagerStalker"
+    },
+    {
+      "name": "DespawnV",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_v",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/DespawnVProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/VillagerStalker"
+    },
+    {
+      "name": "ChickenDespawn",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_despawn",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/ChickenDespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Pollo"
+    },
+    {
+      "name": "VillaVillager",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villa_villager",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/VillaVillagerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/VillagerStalker"
+    },
+    {
+      "name": "Vila",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vila",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/VilaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/V Voladores"
+    },
+    {
+      "name": "Invisible",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/InvisibleRenderer.java",
+          "src/main/java/nothing/its/real/entity/InvisibleEntity.java"
+        ]
+      },
+      "path": "~/Entidades/Invisible"
+    },
+    {
+      "name": "SpawnGlobal",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_global",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SpawnGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible"
+    },
+    {
+      "name": "Spawn",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible"
+    },
+    {
+      "name": "DespawnT",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_t",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/DespawnTProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible"
+    },
+    {
+      "name": "InvisibleAtacaPlayer",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_ataca_player",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/InvisibleAtacaPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible"
+    },
+    {
+      "name": "NetherwARTBLOCK",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherw_artblock",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/block/NetherwARTBLOCKBlock.java",
+          "src/main/resources/assets/ashes1ashes/models/item/netherw_artblock.json",
+          "src/main/resources/assets/ashes1ashes/blockstates/netherw_artblock.json",
+          "src/main/resources/assets/ashes1ashes/models/block/netherw_artblock.json"
+        ]
+      },
+      "path": "~/Bloques"
+    },
+    {
+      "name": "Smile",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ashes1ashes/models/block/smile.json",
+          "src/main/java/nothing/its/real/block/SmileBlock.java",
+          "src/main/resources/assets/ashes1ashes/models/item/smile.json",
+          "src/main/resources/assets/ashes1ashes/blockstates/smile.json"
+        ]
+      },
+      "path": "~/Bloques"
+    },
+    {
+      "name": "Sonido1",
+      "type": "livingentity",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonido_1",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/Sonido1Entity.java",
+          "src/main/java/nothing/its/real/client/renderer/Sonido1Renderer.java"
+        ]
+      },
+      "path": "~/Musicas Aldeas"
+    },
+    {
+      "name": "DespawnSonidos",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_sonidos",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/DespawnSonidosProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musicas Aldeas"
+    },
+    {
+      "name": "SonidosInvisibles",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonidos_invisibles",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SonidosInvisiblesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musicas Aldeas"
+    },
+    {
+      "name": "Sonido2",
+      "type": "livingentity",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonido_2",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/Sonido2Renderer.java",
+          "src/main/java/nothing/its/real/entity/Sonido2Entity.java"
+        ]
+      },
+      "path": "~/Musicas Aldeas"
+    },
+    {
+      "name": "Sonido3",
+      "type": "livingentity",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonido_3",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/Sonido3Renderer.java",
+          "src/main/java/nothing/its/real/entity/Sonido3Entity.java"
+        ]
+      },
+      "path": "~/Musicas Aldeas"
+    },
+    {
+      "name": "Sonido4",
+      "type": "livingentity",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonido_4",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/Sonido4Renderer.java",
+          "src/main/java/nothing/its/real/entity/Sonido4Entity.java"
+        ]
+      },
+      "path": "~/Musicas Aldeas"
+    },
+    {
+      "name": "Sonido5",
+      "type": "livingentity",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonido_5",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/Sonido5Renderer.java",
+          "src/main/java/nothing/its/real/entity/Sonido5Entity.java"
+        ]
+      },
+      "path": "~/Musicas Aldeas"
+    },
+    {
+      "name": "Antorchas",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antorchas",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/AntorchasProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JugadorSeAcuesta",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jugador_se_acuesta",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/JugadorSeAcuestaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnBloqueInicio",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_bloque_inicio",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SpawnBloqueInicioProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Casa1",
+      "type": "structure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casa_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/casa_1.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure/casa_1.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/casa_1.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Casa2",
+      "type": "structure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casa_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure/casa_2.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/casa_2.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/casa_2.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Casas1",
+      "type": "structure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casas_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure/casas_1.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/casas_1.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/casas_1.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Crafting",
+      "type": "structure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure/crafting.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/crafting.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/crafting.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Base",
+      "type": "structure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/base.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure/base.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/base.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Cruz",
+      "type": "structure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cruz",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure/cruz.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/cruz.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/cruz.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Squids",
+      "type": "structure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "squids",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure/squids.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/squids.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/squids.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Casa5",
+      "type": "structure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casa_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure/casa_5.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/casa_5.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/casa_5.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "ElJugadorCercaV",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "el_jugador_cerca_v",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/ElJugadorCercaVProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Villager Individual Volador"
+    },
+    {
+      "name": "Puerta",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puerta",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/PuertaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EstructuraGlobal",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estructura_global",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/EstructuraGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Spawn Estructuras"
+    },
+    {
+      "name": "EstructuraSpawn",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estructura_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/EstructuraSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Spawn Estructuras"
+    },
+    {
+      "name": "Configuracion",
+      "type": "config",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "configuracion",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/configuration/ConfiguracionConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "SpawnNEntidad",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_n_entidad",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SpawnNEntidadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Entidad Eye"
+    },
+    {
+      "name": "Jar",
+      "type": "livingentity",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jar",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/JarEntity.java",
+          "src/main/java/nothing/its/real/client/renderer/JarRenderer.java"
+        ]
+      },
+      "path": "~/Entidades/000.jar"
+    },
+    {
+      "name": "SpawnJar",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_jar",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SpawnJarProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/000.jar"
+    },
+    {
+      "name": "SpawnJarGlobal",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_jar_global",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SpawnJarGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/000.jar"
+    },
+    {
+      "name": "SpawnNEstructura",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_n_estructura",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SpawnNEstructuraProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Entidad Eye"
+    },
+    {
+      "name": "DespawnN",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_n",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/DespawnNProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Entidad Eye"
+    },
+    {
+      "name": "SpawnNGlobal",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_n_global",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SpawnNGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Entidad Eye"
+    },
+    {
+      "name": "Puntero",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puntero",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/PunteroProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Punto",
+      "type": "particle",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punto",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ashes1ashes/particles/punto.json",
+          "src/main/java/nothing/its/real/client/particle/PuntoParticle.java"
+        ]
+      },
+      "path": "~/Puntos"
+    },
+    {
+      "name": "PunteroJar",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puntero_jar",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/PunteroJarProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/000.jar"
+    },
+    {
+      "name": "JoinWorld000",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "join_world_000",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/JoinWorld000Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Entidades/000.jar"
+    },
+    {
+      "name": "Balloon",
+      "type": "animatedentity",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloon",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/BalloonEntity.java",
+          "src/main/java/nothing/its/real/entity/model/BalloonModel.java",
+          "src/main/java/nothing/its/real/client/renderer/BalloonRenderer.java"
+        ]
+      },
+      "path": "~/Entidades/Balloon"
+    },
+    {
+      "name": "SpawnearGlobo",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnear_globo",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SpawnearGloboProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Balloon"
+    },
+    {
+      "name": "ExplotarGlobo",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explotar_globo",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/ExplotarGloboProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Balloon"
+    },
+    {
+      "name": "InvisibleCruz",
+      "type": "livingentity",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_cruz",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/InvisibleCruzRenderer.java",
+          "src/main/java/nothing/its/real/entity/InvisibleCruzEntity.java"
+        ]
+      },
+      "path": "~/Entidades/Invisible/Invisible Cruz"
+    },
+    {
+      "name": "Tag",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tag",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/TagProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entidades/000.jar"
+    },
+    {
+      "name": "PuntoDos",
+      "type": "particle",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punto_dos",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ashes1ashes/particles/punto_dos.json",
+          "src/main/java/nothing/its/real/client/particle/PuntoDosParticle.java"
+        ]
+      },
+      "path": "~/Puntos"
+    },
+    {
+      "name": "PuntoNegro",
+      "type": "particle",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punto_negro",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/particle/PuntoNegroParticle.java",
+          "src/main/resources/assets/ashes1ashes/particles/punto_negro.json"
+        ]
+      },
+      "path": "~/Puntos"
+    },
+    {
+      "name": "Nadvance",
+      "type": "achievement",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nadvance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/advancements/nadvance.json"
+        ]
+      },
+      "path": "~/Logros"
+    },
+    {
+      "name": "DespawnVVoladores",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_v_voladores",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/DespawnVVoladoresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/V Voladores"
+    },
+    {
+      "name": "RomperVidrioAlrededor",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "romper_vidrio_alrededor",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/RomperVidrioAlrededorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Vidrios"
+    },
+    {
+      "name": "Ojo",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ojo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ashes1ashes/blockstates/ojo.json",
+          "src/main/java/nothing/its/real/block/OjoBlock.java",
+          "src/main/resources/assets/ashes1ashes/models/item/ojo.json",
+          "src/main/resources/assets/ashes1ashes/models/block/ojo.json"
+        ]
+      },
+      "path": "~/Bloques"
+    },
+    {
+      "name": "PuertaOjo",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puerta_ojo",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/PuertaOjoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crash",
+      "type": "achievement",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/advancements/crash.json"
+        ]
+      },
+      "path": "~/Logros"
+    },
+    {
+      "name": "GloboMuere",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "globo_muere",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/GloboMuereProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Balloon"
+    },
+    {
+      "name": "JarHostile",
+      "type": "livingentity",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jar_hostile",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/JarHostileRenderer.java",
+          "src/main/java/nothing/its/real/entity/JarHostileEntity.java"
+        ]
+      },
+      "path": "~/Entidades/000.jar"
+    },
+    {
+      "name": "JarAtacaJugador",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jar_ataca_jugador",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/JarAtacaJugadorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entidades/000.jar"
+    },
+    {
+      "name": "Agujero",
+      "type": "structure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "agujero",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/agujero.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/agujero.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure/agujero.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Maze",
+      "type": "livingentity",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maze",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/MazeRenderer.java",
+          "src/main/java/nothing/its/real/entity/MazeEntity.java"
+        ]
+      },
+      "path": "~/Entidades/Invisible/Maze Invisible"
+    },
+    {
+      "name": "Fog",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fog",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/FogProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible/Maze Invisible"
+    },
+    {
+      "name": "FogColor",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fog_color",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/FogColorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible/Maze Invisible"
+    },
+    {
+      "name": "DarkEfect",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_efect",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/DarkEfectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible/Maze Invisible"
+    },
+    {
+      "name": "Maze1",
+      "type": "livingentity",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maze_1",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/Maze1Entity.java",
+          "src/main/java/nothing/its/real/client/renderer/Maze1Renderer.java"
+        ]
+      },
+      "path": "~/Entidades/Maze1"
+    },
+    {
+      "name": "Maze2",
+      "type": "livingentity",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maze_2",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/Maze2Renderer.java",
+          "src/main/java/nothing/its/real/entity/Maze2Entity.java"
+        ]
+      },
+      "path": "~/Entidades/Maze2"
+    },
+    {
+      "name": "GlobalVidrios",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "global_vidrios",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/GlobalVidriosProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Vidrios"
+    },
+    {
+      "name": "MazeInvisible2",
+      "type": "livingentity",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maze_invisible_2",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/MazeInvisible2Entity.java",
+          "src/main/java/nothing/its/real/client/renderer/MazeInvisible2Renderer.java"
+        ]
+      },
+      "path": "~/Entidades/Invisible/Maze Invisible"
+    },
+    {
+      "name": "Spawn1",
+      "type": "livingentity",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_1",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/Spawn1Entity.java",
+          "src/main/java/nothing/its/real/client/renderer/Spawn1Renderer.java"
+        ]
+      },
+      "path": "~/Entidades/Invisible/Maze Invisible/EntidadInvisibleSpawn"
+    },
+    {
+      "name": "Spawn2",
+      "type": "livingentity",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_2",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/Spawn2Renderer.java",
+          "src/main/java/nothing/its/real/entity/Spawn2Entity.java"
+        ]
+      },
+      "path": "~/Entidades/Invisible/Maze Invisible/EntidadInvisibleSpawn"
+    },
+    {
+      "name": "K",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/KProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible/Maze Invisible/EntidadInvisibleSpawn"
+    },
+    {
+      "name": "IdentificarClicCama",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "identificar_clic_cama",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/IdentificarClicCamaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pocion"
+    },
+    {
+      "name": "EfectoTP",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "efecto_tp",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/EfectoTPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pocion"
+    },
+    {
+      "name": "TP",
+      "type": "potioneffect",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/potion/TPMobEffect.java"
+        ]
+      },
+      "path": "~/Pocion"
+    },
+    {
+      "name": "TPpocion",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_ppocion",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/TPpocionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible/Maze Invisible/EntidadInvisibleSpawn"
+    },
+    {
+      "name": "Spawn3",
+      "type": "livingentity",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_3",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/Spawn3Renderer.java",
+          "src/main/java/nothing/its/real/entity/Spawn3Entity.java"
+        ]
+      },
+      "path": "~/Entidades/Invisible/Maze Invisible/EntidadInvisibleSpawn"
+    },
+    {
+      "name": "Hijitus",
+      "type": "animatedentity",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hijitus",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/model/HijitusModel.java",
+          "src/main/java/nothing/its/real/client/renderer/HijitusRenderer.java",
+          "src/main/java/nothing/its/real/entity/HijitusEntity.java"
+        ]
+      },
+      "path": "~/Entidades/Maze3"
+    },
+    {
+      "name": "Laberinto1",
+      "type": "structure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "laberinto_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure/laberinto_1.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/laberinto_1.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/laberinto_1.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Laberinto2",
+      "type": "structure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "laberinto_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure/laberinto_2.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/laberinto_2.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/laberinto_2.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "AldeanoMladito",
+      "type": "livingentity",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aldeano_mladito",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/AldeanoMladitoRenderer.java",
+          "src/main/java/nothing/its/real/entity/AldeanoMladitoEntity.java"
+        ]
+      },
+      "path": "~/Entidades/Maze3"
+    },
+    {
+      "name": "Tomino",
+      "type": "painting",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomino",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VerTodos",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ver_todos",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/VerTodosProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible/Invisible Cruz"
+    },
+    {
+      "name": "NoFaceV",
+      "type": "livingentity",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_face_v",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/NoFaceVRenderer.java",
+          "src/main/java/nothing/its/real/entity/NoFaceVEntity.java"
+        ]
+      },
+      "path": "~/Entidades"
+    },
+    {
+      "name": "DespawnCruz",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_cruz",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/DespawnCruzProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible/Invisible Cruz"
+    },
+    {
+      "name": "PuntoBlanco",
+      "type": "particle",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punto_blanco",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/particle/PuntoBlancoParticle.java",
+          "src/main/resources/assets/ashes1ashes/particles/punto_blanco.json"
+        ]
+      },
+      "path": "~/Puntos"
+    },
+    {
+      "name": "JarCubo",
+      "type": "livingentity",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jar_cubo",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/JarCuboRenderer.java",
+          "src/main/java/nothing/its/real/entity/JarCuboEntity.java"
+        ]
+      },
+      "path": "~/Entidades/Cubo"
+    },
+    {
+      "name": "Cubo",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubo",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/CuboProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Cubo"
+    },
+    {
+      "name": "SpawnCubo",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_cubo",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/SpawnCuboProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Cubo"
+    },
+    {
+      "name": "InvisibleCasa",
+      "type": "livingentity",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_casa",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/InvisibleCasaEntity.java",
+          "src/main/java/nothing/its/real/client/renderer/InvisibleCasaRenderer.java"
+        ]
+      },
+      "path": "~/Entidades/Invisible/InvisibleCasa"
+    },
+    {
+      "name": "CasaProcedure",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casa_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/CasaProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Invisible/InvisibleCasa"
+    },
+    {
+      "name": "JarCube2",
+      "type": "livingentity",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jar_cube_2",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/client/renderer/JarCube2Renderer.java",
+          "src/main/java/nothing/its/real/entity/JarCube2Entity.java"
+        ]
+      },
+      "path": "~/Entidades/Cubo"
+    },
+    {
+      "name": "JarCubeClose",
+      "type": "livingentity",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jar_cube_close",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/entity/JarCubeCloseEntity.java",
+          "src/main/java/nothing/its/real/client/renderer/JarCubeCloseRenderer.java"
+        ]
+      },
+      "path": "~/Entidades/Cubo"
+    },
+    {
+      "name": "Casas4",
+      "type": "structure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casas_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ashes1ashes/worldgen/structure_set/casas_4.json",
+          "src/main/resources/data/ashes1ashes/worldgen/structure/casas_4.json",
+          "src/main/resources/data/ashes1ashes/worldgen/template_pool/casas_4.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "DespawnSiNoHayMaze",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_si_no_hay_maze",
+      "metadata": {
+        "files": [
+          "src/main/java/nothing/its/real/procedures/DespawnSiNoHayMazeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidades/Maze3"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "tiempoSonidos",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "tiempoSpawn",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "tiempoNoche",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "tiempoEntidades",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "PlayerEntra",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "tiempoEstructuras",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "spawnNGlobal",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "PlayerEntraBloque",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "tiempoRompeVidrios",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "playerPosicionX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "playerPosicionY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "playerPosicionZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "disc13",
+      "files": [
+        "minecraft_music_disc_-_13"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cuevas",
+      "files": [
+        "cuevas8"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "cave12",
+      "files": [
+        "cave12"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "cave11",
+      "files": [
+        "cave11"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "cave8sound",
+      "files": [
+        "cave8sound"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "caminartierra",
+      "files": [
+        "walkingefectdirt"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "caminarpiedra",
+      "files": [
+        "walkingstone"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-5",
+      "files": [
+        "minecraft-cave-sound-5"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-4",
+      "files": [
+        "minecraft-cave-sound-4"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-14",
+      "files": [
+        "minecraft-cave-sound-14"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-19",
+      "files": [
+        "minecraft-cave-sound-19"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-12",
+      "files": [
+        "minecraft-cave-sound-12"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-11",
+      "files": [
+        "minecraft-cave-sound-11"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-7",
+      "files": [
+        "minecraft-cave-sound-7"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cueva21",
+      "files": [
+        "cueva21"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "corriendo",
+      "files": [
+        "running"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "balloon",
+      "files": [
+        "balloon_pop_sound_effect"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "pasos",
+      "files": [
+        "pasos"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience01",
+      "files": [
+        "000d_ambience01"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience02",
+      "files": [
+        "000d_ambience02"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience06",
+      "files": [
+        "000d_ambience06"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience07",
+      "files": [
+        "000d_ambience07"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience08",
+      "files": [
+        "000d_ambience08"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience09",
+      "files": [
+        "000d_ambience09"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience10",
+      "files": [
+        "000d_ambience10"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience12",
+      "files": [
+        "000d_ambience12"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience13",
+      "files": [
+        "000d_ambience13"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience14",
+      "files": [
+        "000d_ambience14"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience15",
+      "files": [
+        "000d_ambience15"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience16",
+      "files": [
+        "000d_ambience16"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience17",
+      "files": [
+        "000d_ambience17"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambience18",
+      "files": [
+        "000d_ambience18"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "bitcrush1de2",
+      "files": [
+        "000_bitcrush1de2"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "bitcrush2de2",
+      "files": [
+        "000_bitcrush2de2"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "bitcrushjar1part",
+      "files": [
+        "bitcrushjar1part"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "bitcrushjar2part",
+      "files": [
+        "bitcrushjar2part"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "entity.ashes1ashes.invisible_casa": "§kthing",
+      "item.ashes1ashes.v_spawn_egg": "Villagers Voladores Spawn Egg",
+      "entity.ashes1ashes.squid": "Squid",
+      "advancements.nadvance.descr": "§c§kẏ̷͕̪̬̟̣̠̫̳ǫ̵̪͔̤̲̦̈͒̒͆̌̑̿͒̑̎̄̓̂͘͝ų̷̛̜̜̻͇̠̞̬͖̓͆̆͋͛̈́͒͑̌͑̈́͂̉̌ ̴̨̛͇͙̫͚̤͈̯̮̙̈́̏̈́̈́͆͐̔̽̓̄̍̚d̴͚̫͍̒̆́͐͝o̶̡̨̮͚̯͉̟͖̖͖̖̽̿̆̍̾̚n̸̛͕̖̳̱͎̻̜͙̟̣͖̥̋̓̌͜͝\u0027̸̡̢͓̠͓̤͓̲͇̻̱͉̥͖͌͌͊̓̕t̸̺͙̗̺̤͈̞̭̱̬̏̓̆͑̓̀̌͐͜ ̵̡̧̫̘̪̦̰̦͌̚͜k̷̨̡͉̖̻̝̺͈̩̤̤̖͔͊͗̂̾͠n̵̨͎̘̯̫͐̿̄͛̾̓̀̆̈́̔̏͠ọ̶̡͙̯̲͉̺͕̲̯̫͘̕ẃ̴̨̢̗̼͓̠̩̱̱̈̎̅̈̒̃̽̊͘͠ ̶̡̒̔̌͂̑̌̃͗̄̍̉̉̓͠w̸͇̣̤̱̫̭̩̼̠̰̳̍͆̓̄̆̈̽̄̓͊̋̕̕ḥ̸̣̻̻̩͙̮̣̈́̀́͑̽̒̈́͆́͒͋͒o̸̥̹̹̘̮͚̮͋͂̈́̈́̎̓̀͘ ̶̱̗̺̩̽̐̈́͐̀̑̇̈ȳ̸̢̙͙̺͙͇̦̟̖̺̖̬͓͐o̵̥̐ũ̸͔̽̆͛̾͐͆́̊̀̽̏̽͠ ̸̹͔̩͖͖̫̝̫͓̈́̈͊̒̅͗̇͘͘å̸̠̥̗̺̤͌̅̍̐̈̐͑̎̕͜͝͝ṟ̶̨̢̢̢̖͓̞͍̰̖͕̊̌͌ę̷̛̯̜̜̫̝̹̺̠̙̪͔̺̍̈́̂̉̑̄̆̑̒̒̇̕͘ͅͅ",
+      "entity.ashes1ashes.jar_cube_2": "000",
+      "subtitles.pasos": "",
+      "subtitles.cave-sound-7": "",
+      "subtitles.cave-sound-4": "",
+      "subtitles.cave-sound-5": "",
+      "item.ashes1ashes.squid_spawn_egg": "Squid Spawn Egg",
+      "entity.ashes1ashes.maze_invisible_2": "Invisible maze 2",
+      "subtitles.cueva21": "",
+      "entity.ashes1ashes.aldeano_mladito": "Vll r",
+      "subtitles.cave-sound-11": "",
+      "entity.ashes1ashes.n": "🚪",
+      "subtitles.ambience18": "",
+      "entity.ashes1ashes.hijitus": "Hijitus",
+      "subtitles.cave-sound-14": "",
+      "item.ashes1ashes.hijitus_spawn_egg": "Hijitus Spawn Egg",
+      "advancements.crash.title": "§c§k000.JAR",
+      "subtitles.cave-sound-12": "",
+      "subtitles.ambience10": "",
+      "entity.ashes1ashes.villagrr": "Villagrr Stalker",
+      "entity.ashes1ashes.invisible_cruz": "Invisible Cruz",
+      "subtitles.ambience13": "",
+      "subtitles.cuevas": "",
+      "subtitles.ambience12": "",
+      "subtitles.ambience15": "",
+      "block.ashes1ashes.smile": "ɘ|imꙅ",
+      "subtitles.ambience14": "",
+      "subtitles.ambience17": "",
+      "subtitles.ambience16": "",
+      "subtitles.bitcrush2de2": "",
+      "subtitles.bitcrushjar2part": "",
+      "entity.ashes1ashes.maze": "Invisible maze",
+      "subtitles.balloon": "",
+      "subtitles.cave-sound-19": "",
+      "entity.ashes1ashes.villager": "Villager Volador Individual",
+      "entity.ashes1ashes.v": "Villagers Voladores",
+      "entity.ashes1ashes.jar_hostile": "000",
+      "entity.ashes1ashes.maze_2": "§kplayer",
+      "subtitles.bitcrushjar1part": "",
+      "entity.ashes1ashes.maze_1": "§ké̴̠͚̞̖̣͎̱̭̤̥̞̊̀͐̈͛̔̚͘͠͠y̷̡̙͕͈̹̤̳̜̥̝̥̗̹̬͌͗̒͆͊͊͑̄̚͝e̴̽́͗̀͆̃̅̈́͒̚͝",
+      "subtitles.ambience08": "",
+      "entity.ashes1ashes.jar_cube_close": "000",
+      "subtitles.ambience07": "",
+      "subtitles.ambience09": "",
+      "block.ashes1ashes.netherw_artblock": "ɥɔʇılɓ",
+      "effect.ashes1ashes.tp": "tp",
+      "entity.ashes1ashes.jar": "000",
+      "subtitles.ambience02": "",
+      "block.ashes1ashes.ojo": "ꫀꪗꫀ",
+      "subtitles.ambience01": "",
+      "subtitles.ambience06": "",
+      "subtitles.cave8sound": "",
+      "painting.ashes1ashes.tomino.title": "Tomino",
+      "subtitles.bitcrush1de2": "",
+      "painting.ashes1ashes.tomino.author": "tomino",
+      "entity.ashes1ashes.cow": "Cow",
+      "entity.ashes1ashes.chicken": "Chicken",
+      "entity.ashes1ashes.jar_cubo": "000",
+      "subtitles.disc13": "",
+      "subtitles.corriendo": "",
+      "entity.ashes1ashes.sonido_1": "sonido1",
+      "entity.ashes1ashes.sonido_2": "sonido2",
+      "item.ashes1ashes.balloon_spawn_egg": "Balloon Spawn Egg",
+      "subtitles.caminartierra": "",
+      "entity.ashes1ashes.balloon": "Balloon",
+      "entity.ashes1ashes.sonido_3": "sonido3",
+      "item.ashes1ashes.chicken_spawn_egg": "Chicken Spawn Egg",
+      "entity.ashes1ashes.sonido_4": "sonido4",
+      "subtitles.caminarpiedra": "",
+      "entity.ashes1ashes.sonido_5": "sonido5",
+      "entity.ashes1ashes.no_face_v": "§kNoFaceV",
+      "subtitles.cave12": "",
+      "subtitles.cave11": "",
+      "advancements.crash.descr": "§c§kIM HERE",
+      "advancements.nadvance.title": "§c§kyou haven\u0027t seen anything",
+      "entity.ashes1ashes.spawn_1": "spawn 1",
+      "entity.ashes1ashes.invisible": "§kthing",
+      "entity.ashes1ashes.spawn_2": "spawn 2",
+      "entity.ashes1ashes.spawn_3": "spawn 3"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Musicas Aldeas",
+        "children": []
+      },
+      {
+        "name": "Bloques",
+        "children": []
+      },
+      {
+        "name": "Estructuras",
+        "children": []
+      },
+      {
+        "name": "Sonidos",
+        "children": []
+      },
+      {
+        "name": "Entidades",
+        "children": [
+          {
+            "name": "VillagerStalker",
+            "children": []
+          },
+          {
+            "name": "Pollo",
+            "children": []
+          },
+          {
+            "name": "DespawnEntidadesGlobales",
+            "children": []
+          },
+          {
+            "name": "V Voladores",
+            "children": []
+          },
+          {
+            "name": "Invisible",
+            "children": [
+              {
+                "name": "Invisible Cruz",
+                "children": []
+              },
+              {
+                "name": "Maze Invisible",
+                "children": [
+                  {
+                    "name": "EntidadInvisibleSpawn",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "InvisibleCasa",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Villager Individual Volador",
+            "children": []
+          },
+          {
+            "name": "Spawn Estructuras",
+            "children": []
+          },
+          {
+            "name": "Entidad Eye",
+            "children": []
+          },
+          {
+            "name": "000.jar",
+            "children": []
+          },
+          {
+            "name": "Balloon",
+            "children": []
+          },
+          {
+            "name": "Maze1",
+            "children": []
+          },
+          {
+            "name": "Maze2",
+            "children": []
+          },
+          {
+            "name": "Maze3",
+            "children": []
+          },
+          {
+            "name": "Cubo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Noche",
+        "children": []
+      },
+      {
+        "name": "JugadorMuere",
+        "children": []
+      },
+      {
+        "name": "Puntos",
+        "children": []
+      },
+      {
+        "name": "Logros",
+        "children": []
+      },
+      {
+        "name": "Vidrios",
+        "children": []
+      },
+      {
+        "name": "Pocion",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ashes1ashes",
+    "modName": "⛧",
+    "version": "0☧",
+    "description": "☧",
+    "author": "EBALIA",
+    "websiteURL": "https://www.patreon.com/EBALIA",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "smile",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "use_compiled_mods",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "⛧",
+    "modElementsPackage": "nothing.its.real",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

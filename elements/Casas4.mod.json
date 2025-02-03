@@ -1,0 +1,41 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "pueblo2",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 34,
+    "separation": 8,
+    "restrictionBiomes": [
+      {
+        "value": "final_plateau"
+      },
+      {
+        "value": "floodplain"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "volcanicPlains"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}
